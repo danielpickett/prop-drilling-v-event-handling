@@ -1,0 +1,20 @@
+.Nav {
+  border: 0.125rem solid rgb(109, 109, 109);
+  background-color: rgb(109, 109, 109);
+  &__nav {
+    list-style: none;
+    padding-left: 0;
+  }
+  &__nav-link {
+    &,
+    &:link,
+    &:visited {
+      background-color: rgb(109, 109, 109);
+      color: white;
+      padding: 1rem;
+    }
+    &:hover {
+      background-color: rgb(66, 66, 66);
+    }
+  }
+}
