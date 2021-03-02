@@ -12,6 +12,9 @@ export const Nav = () => {
         <NavLink className="Nav__nav-link" to="/prop-drilling-example">
           Prop Drilling Example
         </NavLink>
+        <NavLink className="Nav__nav-link" to="/event-handling-example">
+          Event Handling Example
+        </NavLink>
       </ul>
     </div>
   )

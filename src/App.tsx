@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { Nav, PropDrillingExample } from 'pages'
+import { Nav, PropDrillingExample, EventHandlingExample } from 'pages'
 import './App.scss'
 
 function App() {
@@ -15,6 +15,9 @@ function App() {
           </Route>
           <Route path="/prop-drilling-example">
             <PropDrillingExample />
+          </Route>
+          <Route path="/event-handling-example">
+            <EventHandlingExample />
           </Route>
         </Switch>
       </Router>
